@@ -1,0 +1,250 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+  background-color: #ebfbee;
+  background-color: #51cf66;
+  padding: 3.6rem 0 1rem 0;
+  max-width: 120rem;
+  margin: 0 auto;
+  background-image: url("../img/hero-img-bc.jpg");
+
+
+}
+
+.header-logo-con {
+  text-align: center;
+}
+
+.logo-heading {
+  font-size: 5rem;
+  color: rgb(207, 232, 211);
+  padding: 0 0 2.4rem 0;
+  font-weight: 700;
+}
+
+/* NAVIGATION */
+.main-nav {
+  max-width: 80rem;
+  /*background-color: rgb(61, 130, 27);*/
+  padding: .5rem 0;
+  margin: 1rem auto;
+
+  border-radius: 5px;
+}
+
+.main-nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+
+  margin: 1rem auto;
+
+  list-style-type: none;
+
+}
+
+.main-nav-item {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.main-nav-item a:link,
+.main-nav-item a:visited {
+  color: white;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.main-nav-item a:hover {
+  color: rgb(11, 46, 11);
+}
+
+.main-nav-item a:active {
+  color: aliceblue;
+  /*background-color: rgb(27, 102, 12);*/
+  padding: 0 1rem;
+  border-radius: 5px;
+}
+
+
+/**************************/
+/* SECTION HERO  */
+/**************************/
+
+.section-hero {
+  background-color: #def0df;
+  padding: 9.6rem 0 9.6rem 0;
+}
+
+.section-hero .container {
+  max-width: 100rem;
+  margin: auto;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-bottom: 2.4rem;
+}
+
+.hero-para {
+  font-size: 2rem;
+  margin-bottom: 3.6rem;
+}
+
+.hero-img-box img {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.hero-cta-con {
+  width: 100%;
+}
+
+.cta-button {
+  font-size: 3rem;
+  text-decoration: none;
+  color: rgb(225, 232, 225);
+  font-weight: 500;
+  background-color: #487e03;
+  border-radius: 9px;
+  padding: 0 9px;
+  display: inline;
+  margin: 0 auto;
+}
+
+/**************************/
+/* SECTION PROCEDURES  */
+/**************************/
+
+
+
+.procedure-card {
+  text-align: center;
+
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 0px 9px 9px rgb(0 0 0 / 30%);
+  transition: all 0.3s;
+}
+
+.procedure-card:hover {
+  box-shadow: 1px 12px 10px rgb(0 0 0 / 50%);
+  transform: translateY(-8px);
+  transform: scale(1.1);
+}
+
+
+.procedure-img-con {
+  margin-bottom: 2.4rem;
+
+}
+
+.procedure-img-con img {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.procedure-img-con img:hover {
+  transform: scale(1.2);
+}
+
+.procedure-text-con {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem 2rem;
+}
+
+.procedure-heading {
+  font-size: 2.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.procedure-method {
+  font-size: 2rem;
+}
+
+.procedure-duration {
+  font-size: 2rem;
+}
+
+.procedure-duration span {
+  font-weight: 500;
+}
+
+.patients-recoverd a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+/**************************/
+/* SECTION CONTACT US  */
+/**************************/
+.section-contact-us {
+  padding: 4rem 4rem;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.contact-div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 3rem;
+}
+
+.contact-tel {
+  font-size: 3rem;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-heading {
+  padding: 2rem 0 2rem;
+  font-size: 3.4rem;
+  margin: 0 auto;
+
+}
+
+.google-map {
+  /*border: 1px solid gray;
+  border-radius: 9px;*/
+}
+
+
+/**************************/
+/* FOOTER */
+/**************************/
+
+.footer {
+  background-color: rgb(32, 114, 25);
+  margin: 0 !important;
+  padding: 4.6rem;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.748);
+  background-image: url("../img/hero-img-bc.jpg");
+  text-align: center;
+}
+
+.copyright {
+  margin-bottom: 2.4rem;
+}
+
+.ankit-kaushik span {
+  color: white;
+  text-decoration: none;
+}
+
+.ankit-kaushik a {
+  color: white;
+  font-size: 1.6rem;
+}
